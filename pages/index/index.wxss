@@ -1,0 +1,26 @@
+.head-tab-list{
+  display: flex;
+  height: 100rpx;
+
+  /* flex-direction: row; */
+}
+
+.head-tab-item{
+  background-color:  #ffffff;
+  padding-top: 20rpx;
+  padding-left: 25rpx;
+  padding-right:25rpx;
+  display: flex;
+  font-size: 35rpx;
+  line-height: 49rpx;
+  /* height: 300rpx; */
+  /* width: 80rpx; */
+  /* background-color: #99ccff; */
+  /* align-items: center; */
+  flex-shrink: 0;
+  /* text-align: center; */
+  color: rgba(0, 0, 0,0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+

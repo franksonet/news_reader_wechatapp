@@ -1,0 +1,15 @@
+<scroll-view scroll-x>
+  <view class='head-tab-list'>
+    <view class='head-tab-item' id='tabItem' wx:for='{{categoryList}}' data-category='{{item}}' bindtap='onTapTabItem'>{{item}}</view>
+  </view>
+  
+</scroll-view>
+
+
+<scroll-view scroll-y>
+
+
+
+
+
+</scroll-view>
