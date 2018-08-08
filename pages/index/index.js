@@ -35,7 +35,7 @@ Page({
     console.log('Category selected: ' + tabSelected)
     console.log(categoryMap[tabSelected])
     this.setData({
-      currentCategory: categoryMap[tabSelected]
+      currentCategory: tabSelected
     })
   },
 
