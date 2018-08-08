@@ -24,6 +24,26 @@
 
 }
 
+.head-tab-item-tapped{
+  background-color:  #ffffff;
+  padding-top: 20rpx;
+  padding-left: 25rpx;
+  padding-right:25rpx;
+  display: flex;
+  font-size: 35rpx;
+  font-weight: bold;
+  line-height: 49rpx;
+  /* height: 300rpx; */
+  /* width: 80rpx; */
+  /* background-color: #99ccff; */
+  /* align-items: center; */
+  flex-shrink: 0;
+  /* text-align: center; */
+  color: rgba(0, 0, 0,1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  
+}
+
 .news-list{
   /* display: flex; */
 }

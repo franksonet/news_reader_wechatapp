@@ -1,6 +1,6 @@
 <scroll-view scroll-x>
   <view class='head-tab-list'>
-    <view class='head-tab-item' id='tabItem' wx:for='{{categoryList}}' wx:key='categoryList' data-category='{{item}}' bindtap='onTapTabItem'>{{item}}</view>
+    <view class="{{item == currentCategory ? 'head-tab-item-tapped' : 'head-tab-item'}}" id='tabItem' wx:for='{{categoryList}}' wx:key='categoryList' data-category='{{item}}' bindtap='onTapTabItem'>{{item}}</view>
   </view>
   
 </scroll-view>
