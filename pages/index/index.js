@@ -50,10 +50,11 @@ Page({
       success: res => {
         let newsList = res.data.result
         console.log(newsList)
-        // for (var news in newsList){
-        //   let date = news.date
-        //   news.date = date.slice(11,16)
-        // }
+        var i
+        for (i=0; i<newsList.length; i++){
+          let newsdate = newsList[i].date
+          newsList[i].date = newsdate.slice(0, 10) + ' ' + newsdate.slice(11,16)
+        }
         this.setData({
           newsList: newsList
         })
