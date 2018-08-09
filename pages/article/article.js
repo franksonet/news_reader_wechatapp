@@ -44,4 +44,10 @@ Page({
     })
   },
 
+  //navigate back to index page
+  naviBack(){
+    wx.navigateBack({
+      delta: 1
+    })
+  }
 })

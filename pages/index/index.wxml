@@ -1,3 +1,8 @@
+<view class='navi'>
+  <image class='navi-icon' src='/images/navi-icon.jpg' ></image>
+  <view class='navi-text'>快读-资讯</view>
+</view>
+
 <scroll-view scroll-x>
   <view class='head-tab-list'>
     <view class="{{item === currentCategory ? 'head-tab-item-tapped' : 'head-tab-item'}}" id='tabItem' wx:for='{{categoryList}}' wx:key='categoryList' data-category='{{item}}' bindtap='onTapTabItem'>{{item}}</view>

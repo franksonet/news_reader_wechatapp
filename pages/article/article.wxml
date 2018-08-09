@@ -1,4 +1,8 @@
 <!--pages/article.wxml-->
+<view class='navi'>
+  <image class='navi-icon-back' src='/images/navi-icon-back.jpg' bindtap='naviBack'></image>
+  <view class='navi-text'>快读-资讯</view>
+</view>
 <view class='news-article-wrapper'>
   <view class='news-title'>{{newsArticle.title}}</view>
   <view class='article-info-wrapper'>

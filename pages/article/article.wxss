@@ -1,5 +1,22 @@
 /* pages/article.wxss */
 
+.navi{
+  margin-top: 110rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  margin-left: 15rpx;
+}
+.navi-icon-back{
+height: 50rpx;
+width: 50rpx;
+}
+
+.navi-text{
+  font-size: 30rpx;
+  line-height: 42rpx;
+  opacity: 0.8;
+}
+
 .news-article-wrapper{
   padding: 30rpx;
   border-top: 1px solid rgba(24, 78, 228, 0.5);

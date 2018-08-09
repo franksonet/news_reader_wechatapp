@@ -1,3 +1,27 @@
+.navi{
+  margin-top: 110rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  margin-left: 30rpx;
+}
+.navi-icon{
+  height: 50rpx;
+  width: 50rpx;
+  vertical-align: center;
+}
+
+.navi-text{
+  position: relative;
+  left: 30rpx;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  opacity: 0.8;
+  font-weight: bold;
+  vertical-align: center;
+
+}
+
+
 .head-tab-list{
   display: flex;
   height: 100rpx;
@@ -40,7 +64,7 @@
   flex-shrink: 0;
   /* text-align: center; */
   color: rgba(0, 0, 0,1);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid rgba(5, 110, 230, 1);
   
 }
 
