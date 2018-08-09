@@ -29,6 +29,12 @@ Page({
     this.getNewslist()
   },
 
+  onPullDownRefresh() {
+    this.getNewslist(() => {
+      wx.stopPullDownRefresh()
+    })
+  },
+
   // When the news category item is tapped:
   onTapTabItem: function(event){
     // console.log(event)

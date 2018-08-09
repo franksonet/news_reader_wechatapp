@@ -4,7 +4,7 @@
     "pages/article/article"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "新闻小程序",
     "navigationBarTextStyle": "black",
