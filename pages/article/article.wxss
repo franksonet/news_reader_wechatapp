@@ -2,6 +2,7 @@
 
 .news-article-wrapper{
   padding: 30rpx;
+  border-top: 1px solid rgba(24, 78, 228, 0.5);
 }
 
 .news-title{
@@ -56,5 +57,5 @@
   position: relative;
   width: 100%;
   margin-top: 20rpx;
-  margin-bottom: 20rpx;
+  /* margin-bottom: 20rpx; */
 }

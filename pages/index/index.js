@@ -17,7 +17,8 @@ Page({
   data: {
     categoryList: Object.keys(categoryMap),
     currentCategory: '国内',
-    newsList: []
+    newsList: [],
+    hotNews: {}
   },
 
   /**
@@ -65,7 +66,8 @@ Page({
           newsList[i].date = newsdate.slice(0, 10) + ' ' + newsdate.slice(11,16)
         }
         this.setData({
-          newsList: newsList
+          newsList: newsList.slice(1),
+          hotNews: newsList[0]
         })
       },
       complete: () => {
