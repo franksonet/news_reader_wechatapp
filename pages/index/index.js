@@ -37,6 +37,15 @@ Page({
     this.setData({
       currentCategory: tabSelected
     })
+    this.getNewslist()
+  },
+
+  onTapNewsItem: function(event){
+    let selectedNewsid = event.currentTarget.dataset.newsid
+    console.log('ID of selected News: ' + selectedNewsid)
+    wx.navigateTo({
+      url: '/pages/article/article?newsid=' + selectedNewsid
+    })
   },
 
   //Get the news list of the selected category

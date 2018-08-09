@@ -1,0 +1,60 @@
+/* pages/article.wxss */
+
+.news-article-wrapper{
+  padding: 30rpx;
+}
+
+.news-title{
+  font-size: 45rpx;
+  font-weight: bold;
+  line-height: 63rpx;
+  margin-bottom: 25rpx;
+}
+
+.article-info-wrapper{
+  position: relative;
+  display: flex;
+  margin-bottom: 60rpx;
+}
+
+.news-source-time{
+  position: relative;
+  width: 70%;
+  text-align: left;
+  font-size: 25rpx;
+  line-height: 35rpx;
+  color: rgba(0, 0, 0,0.5);
+}
+
+.news-readcount{
+  position: relative;
+  width: 30%;
+  font-size: 25rpx;
+  line-height: 35rpx;
+  text-align: right;
+  color: rgba(0, 0, 0,0.5);
+}
+
+.news-text-strong{
+  font-size: 40rpx;
+  line-height: 56rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+
+.news-text-normal{
+  position: relative;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  margin-bottom: 2ß0rpx;
+  margin-top: 20rpx;
+  color: rgba(0, 0, 0,0.8);
+}
+
+.news-image{
+  position: relative;
+  width: 100%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}

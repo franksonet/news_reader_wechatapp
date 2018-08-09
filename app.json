@@ -1,12 +1,13 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/index/index",
+    "pages/article/article"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "新闻小程序",
-    "navigationBarTextStyle":"black",
-    "enablePullDownRefresh": false
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   }
 }

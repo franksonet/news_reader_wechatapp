@@ -44,6 +44,20 @@
   
 }
 
+.top-news-wrapper{
+  position: relative;
+  padding: 30rpx;
+}
+
+.top-news-bg{
+  position: relative;
+  top: 0rpx;
+  left: 0rpx;
+  width: 690rpx;
+  /* height: 100%; */
+  z-index: -1;
+}
+
 .news-list{
   /* display: flex; */
 }

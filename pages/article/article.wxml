@@ -1,0 +1,14 @@
+<!--pages/article.wxml-->
+<view class='news-article-wrapper'>
+  <view class='news-title'>{{newsArticle.title}}</view>
+  <view class='article-info-wrapper'>
+    <view class='news-source-time'>{{newsArticle.source}}  {{newsArticle.date}}</view>
+    <view class='news-readcount'>阅读 {{newsArticle.readCount}}</view>
+  </view>
+  <block wx:for='{{newsArticle.content}}'>
+    <image class='news-image' wx:if="{{item.type === 'image'}}" src="{{item.src}}"></image>
+    <view class='news-text-normal' wx:if="{{item.type === 'p'}}">{{item.text}}</view>
+    <view class='news-text-strong' wx:if="{{item.type === 'strong'}}">{{item.text}}</view>
+  </block>
+</view>
+

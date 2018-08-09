@@ -5,10 +5,14 @@
   
 </scroll-view>
 
+<view class='top-news-wrapper'>
+<image class='top-news-bg' src='/images/default_news_image.jpg' mode='scaleToFill'></image>
+<view class='top-news-title'></view>
+</view>
 
 <scroll-view scroll-y>
   <view class='news-list'>
-    <view class='news-block' wx:for='{{newsList}}' wx:key='newsList'>
+    <view class='news-block' wx:for='{{newsList}}' wx:key='newsList' id='newsItem' data-newsid='{{item.id}}' bindtap='onTapNewsItem'>
       <view class='news-title'>{{item.title}}</view>
       <view class='news-source-time'>{{item.source}}  {{item.date}}</view>
       <image class='news-picture' src='{{item.firstImage}}' ></image>
